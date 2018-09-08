@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/enedis/include/header.inc.php"
+include $_SERVER['DOCUMENT_ROOT']."/monitoring_server/include/header.inc.php"
 ?>          
 
 <div class="breadcrumbs">
@@ -22,7 +22,7 @@ include $_SERVER['DOCUMENT_ROOT']."/enedis/include/header.inc.php"
 </div>
 
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/enedis/include/topbar.inc.php"
+include $_SERVER['DOCUMENT_ROOT']."/monitoring_server/include/topbar.inc.php"
 ?> 
 
 <div class="content mt-3">
@@ -47,22 +47,22 @@ include $_SERVER['DOCUMENT_ROOT']."/enedis/include/topbar.inc.php"
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td><a>http://apache.enedis.fr</a></td>
-              <td><a>http://instance1.apache.enedis.fr</a></td>
+              <td><a>http://apache.monitoring_server.fr</a></td>
+              <td><a>http://instance1.apache.monitoring_server.fr</a></td>
               <td>@mdo</td>
               <td>@mdo1</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td><a>http://apache.enedis.fr</a></td>
-              <td><a>http://instance2.apache.enedis.fr</a></td>
+              <td><a>http://apache.monitoring_server.fr</a></td>
+              <td><a>http://instance2.apache.monitoring_server.fr</a></td>
               <td>@mdo</td>
               <td>@mdo2</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td><a>http://apache.enedis.fr</a></td>
-              <td><a>http://instance3.apache.enedis.fr</a></td>
+              <td><a>http://apache.monitoring_server.fr</a></td>
+              <td><a>http://instance3.apache.monitoring_server.fr</a></td>
               <td>@mdo</td>
               <td>@mdo3</td>
             </tr>
@@ -75,5 +75,5 @@ include $_SERVER['DOCUMENT_ROOT']."/enedis/include/topbar.inc.php"
 </div>
 
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/enedis/include/footer.inc.php"
+include $_SERVER['DOCUMENT_ROOT']."/monitoring_server/include/footer.inc.php"
 ?>
